@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/border">
+
+        <ImageView
+            android:layout_marginStart="10dp"
+            android:layout_width="46dp"
+            android:layout_height="38dp"
+            android:src="@drawable/ic_action_if"/>
+
+        <EditText
+            android:id="@+id/edit_userId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textColorHint="@color/black"
+            android:hint="User ID"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginStart="10dp"
+android:layout_marginEnd="10dp"
+android:layout_marginBottom="15dp"
+android:background="@drawable/border"
+    >
+
+<ImageView
+    android:layout_marginStart="10dp"
+    android:layout_width="46dp"
+    android:layout_height="38dp"
+    android:src="@drawable/ic_action_pass"/>
+
+<EditText
+    android:id="@+id/edit_password"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:textColorHint="@color/black"
+    android:hint="Password"
+    android:inputType="textPassword"
+    android:padding="10dp" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/border">
+
+        <TextView
+
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Place"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_weight="1.90"/>
+
+        <Spinner
+            android:layout_margin="10dp"
+
+            android:id="@+id/spinner_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/border">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Ambiance"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:textColor="@color/black"/>
+
+        <Spinner
+            android:layout_margin="10dp"
+
+            android:id="@+id/spinner_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginEnd="20sp"
+        android:background="@drawable/fill"
+        android:text="NEXT->" />
+
+</LinearLayout>
